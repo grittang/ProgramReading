@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5 Layout Exercise</title>
+    <link rel="stylesheet" href="rewrite-main.css">
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <!-- header here -->
+      <header>
+        <h1>Yoyo's Kitchen</h1>
+        <nav>
+          <ul>
+            <li><a href="#" class="current">home</a></li>
+            <li><a href="#">classes</a></li>
+            <li><a href="#">catering</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- contents here -->
+      <section class="courses">
+        <article>
+          <figure>
+            <img src="images/bok-choi.jpg" alt="Bok Choi">
+            <figcaption>Bok Choi</figcaption>
+          </figure>
+          <section class="article-text">
+            <hgroup>
+                <h2>Japanese Vegetarian</h2>
+                <h3>Five week course in London</h3>
+            </hgroup>
+            <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+          </section>
+        </article>
+        <!-- another article -->
+        <article>
+          <figure id="sauces-masterclass">
+            <img src="images/teriyaki.jpg" alt="Teriyaki">
+            <figcaption>Teriyaki Sauce</figcaption>
+          </figure>
+          <section class="article-text">
+            <hgroup>
+              <h2>Sauces Masterclass</h2>
+              <h3>One day workshop</h3>
+            </hgroup>
+            <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+          </section>
+        </article>
+      </section><!-- courses -->
+      <!-- aside here -->
+      <aside>
+        <section id="popular-recipes">
+          <h2>Popular Recipes</h2>
+          <ul>
+            <li><a href="#" class="recipe-item">Yakitori (grilled chicken)</a></li>
+            <li><a href="#" class="recipe-item">Tsukune (minced chicken patties)</a></li>
+            <li><a href="#" class="recipe-item">Okonomiyaki (savory pancakes)</a></li>
+            <li><a href="#" class="recipe-item">Mizutaki (chicken stew)</a></li>
+          </ul>
+        </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>Yoko's Kitchen <br>
+            27 Redchurch Street <br>
+            Shoreditch <br>
+            London E2 7DP</p>
+        </section>
+      </aside>
+      <!-- footer here -->
+      <footer>
+        &copy; 2011 Yoko's Kitchen
+      </footer>
+    </div><!-- wrapper -->
+  </body>
+</html>
